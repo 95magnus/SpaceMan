@@ -12,9 +12,9 @@ public class ImageRegistry {
 	private static HashMap<String, BufferedImage[]> spriteSheetMap = new HashMap<String, BufferedImage[]>();
 
 	public ImageRegistry() {
-		registerTileTexture("stone", "tile_stone2.png");
-		registerTileTexture("dirt", "tile_dirt2.png");
-		registerTileTexture("grass", "tile_grass2.png");
+		registerTileTexture("stone", "tile_stone.png");
+		registerTileTexture("dirt", "tile_dirt.png");
+		registerTileTexture("grass", "tile_grass.png");
 
 		registerSprite("player_idle", "player_idle.png");
 
